@@ -1,0 +1,320 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    
+h1, h2 {
+  line-height: 1.2;
+}
+    .section-title {
+      font-weight: bold;
+    }
+
+    .btn-utama {
+      background-color: #06357a;
+      color: white;
+      padding: 0.75rem 2rem;
+      border-radius: 25px;
+    }
+    header {
+      background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      padding: 16px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-links a {
+      margin-left: 24px;
+      text-decoration: none;
+      color: #1f2b3d;
+      font-weight: 500;
+    }
+    .nav-links a:hover {
+      color: #1c64f2;
+    }
+    .login-button {
+      background-color: #0c2e66;
+      color: #fff;
+      padding: 8px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+
+.fitur-btn {
+  border: none;
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.fitur-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fitur-btn i {
+  color: #06357a;
+  margin-bottom: 0.5rem;
+}
+
+.fitur-card {
+  background-color: #fff;
+  border-radius: 16px;
+  border: 2px solid #ff7f50;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fitur-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+ .pricelist-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricelist-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.video-section {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.video-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.video-section p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-view-more {
+  background-color: #F4572E;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  transition: background 0.3s ease;
+}
+
+.btn-view-more:hover {
+  background-color: #06357a;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-custom {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+.img-top {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card-body h5 {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.text-price {
+  color: #F4572E;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn-demo {
+  flex: 1;
+  background-color: #0069ff;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-order {
+  flex: 1;
+  background: white;
+  border: 2px solid #0069ff;
+  color: #0069ff;
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-demo:hover,
+.btn-order:hover {
+  opacity: 0.9;
+}
+
+
+.card blockquote::before {
+  content: "“";
+  font-size: 24px;
+  color: #ccc;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+footer {
+  background-color: #00204a; /* biru gelap */
+}
+
+footer a:hover {
+  color: #ffc107 !important;
+}
+
+/* Modal Background */
+.modal-content {
+  border-radius: 1.25rem;
+  border: none;
+  padding: 2rem 2rem 2rem 2rem;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Judul Modal */
+.modal-body h6 {
+  font-weight: 700;
+  color: #1c1c1c;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Deskripsi Modal */
+.modal-body p {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* List Fitur */
+.modal-body ul {
+  padding-left: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.modal-body ul li {
+  list-style: none;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.modal-body ul li i {
+  color: #4f8ef7;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+/* Harga */
+.modal-body h4 {
+  font-weight: 700;
+  color: #2a5bd7;
+  margin-top: 1.5rem;
+}
+
+/* Tombol Lihat Katalog */
+.modal-body .btn.btn-dark {
+  background-color: #00224D;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+}
+
+.modal-body .btn.btn-dark:hover {
+  background-color: #011936;
+}
+
+/* Tombol close (pojok kanan atas) */
+.btn-close {
+  font-size: 1.25rem;
+  opacity: 0.6;
+}
+
+.btn-close:hover {
+  opacity: 1;
+}
+
+.baca-link {
+  display: inline-flex;
+  align-items: center;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.baca-link i {
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.baca-link:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.baca-link:hover i {
+  transform: translateX(5px);
+}
+
+.baca-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #007bff;
+  bottom: -2px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.baca-link:hover::after {
+  width: 100%;
+}
